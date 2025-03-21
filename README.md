@@ -15,7 +15,7 @@ The **Car-Pooling Management System** is a web-based application that connects r
 - **Frontend:** React.js  
 - **Backend:** Flask  
 - **Database:** SQLite  
-- **Styling:** Tailwind CSS (if used)  
+- **Styling:** Tailwind CSS
 - **API Integration:** REST APIs
 
 ![Screenshot 2025-03-20 221216](https://github.com/user-attachments/assets/16bdab01-a1cc-4b31-97a4-12708dae4ea9)
