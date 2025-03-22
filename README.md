@@ -1,7 +1,7 @@
 # Car-Pooling Management System  
 
 ## Overview  
-The **Car-Pooling Management System** is a web-based application that connects riders and drivers for shared trips. Built with **Flask (Backend)** and **React (Frontend)**, it streamlines ride-sharing by offering secure user authentication, trip scheduling, and cost-sharing features.  
+The Car Pooling Management System is a web-based application that allows users to share rides efficiently. The system enables users to offer rides, find carpooling partners, and manage bookings seamlessly.
 
 ## Features  
 - User Authentication (Login/Signup)  
@@ -13,10 +13,9 @@ The **Car-Pooling Management System** is a web-based application that connects r
 
 ## Tech Stack  
 - **Frontend:** React.js  
-- **Backend:** Flask  
-- **Database:** SQLite  
-- **Styling:** Tailwind CSS
-- **API Integration:** REST APIs
+- **Backend:** Django 
+- **Database:** SQLite
+- **Other Dependencies:** Python, JavaScript, REST APIs
 
 ![Screenshot 2025-03-20 221216](https://github.com/user-attachments/assets/16bdab01-a1cc-4b31-97a4-12708dae4ea9)
 
@@ -26,15 +25,14 @@ The **Car-Pooling Management System** is a web-based application that connects r
 ## Setup & Installation  
 
 ```bash
-Backend (Flask)  
-cd backend
+Backend  
+cd carpool/carpool
 pip install -r requirements.txt
+python manage.py migrate
 python manage.py runserver
 
-Frontend (React)
-bash
-Copy
-Edit
+Frontend
 cd frontend
 npm install
 npm start
+
