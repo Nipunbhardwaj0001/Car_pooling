@@ -1,7 +1,7 @@
 # Car-Pooling System  
 
 ## Overview  
-The Car Pooling Management System is a web-based application that allows users to share rides efficiently. The system enables users to offer rides, find carpooling partners, and manage bookings seamlessly.
+The Car Pooling System is a web-based application that allows users to share rides efficiently. The system enables users to offer rides, find carpooling partners, and manage bookings seamlessly.
 
 ## Features  
 - User Authentication (Login/Signup)  
